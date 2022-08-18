@@ -47,7 +47,7 @@ yarn dev
 
 You can view the project through the links below:
 
-- [Live Preview](https://agendajs.thiagolemos.tech/)
+- [Live Preview](https://tarefasjs.thiagolemos.tech/)
 
 <!-- - [Figma](https://www.figma.com/file/um92YqpfGlWiarQUpXwA8v/Sign-Up) -->
 
