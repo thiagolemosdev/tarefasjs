@@ -40,8 +40,11 @@ function salvarTarefas() {
   localStorage.setItem("tarefas", tarefasJSON);
 }
 
-function adicionaTarefasSalvas {
-  
+function adicionaTarefasSalvas() {
+  const tarefas = JSON.parse(localStorage.getItem("tarefas"));
+  tarefas.forEach((tarefa) => {
+    criaTarefa(tarefa);
+  });
 }
 
 document.addEventListener("click", (e) => {
@@ -61,3 +64,5 @@ buttonNovaTarefa.addEventListener("click", (e) => {
   if (!inputNovaTarefa.value) return;
   criaTarefa(inputNovaTarefa.value);
 });
+
+adicionaTarefasSalvas();
