@@ -121,6 +121,7 @@ ul.lista-de-tarefas li button {
   font-weight: bold;
   background: #fff;
   color: #000;
+  padding: 10px;
 }
 
 ul.lista-de-tarefas li button:hover {
@@ -141,19 +142,23 @@ ul.lista-de-tarefas li button:hover {
   }
 
   main input {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
 
   main div.input-tarefa {
-    display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   ul.lista-de-tarefas li {
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr;
-    padding: 1em 0;
+    padding: 1em;
+    border: 2px solid #faeb3e;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* border-right: 1px solid black; */
 
     /* align-items: center; */
   }
@@ -166,6 +171,7 @@ ul.lista-de-tarefas li button:hover {
     margin-top: 10px;
     border: none;
     font-weight: bold;
-    background: #fff;
+    color: rgb(121, 121, 121);
+    background: rgb(204, 204, 204);
   }
 }
