@@ -8,9 +8,9 @@
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=131313&labelColor=323A46" alt="License">
   
-  <img src="https://img.shields.io/github/forks/thiagolemosdev/calculadora?label=forks&message=MIT&color=131313&labelColor=323A46" alt="Forks">
+  <img src="https://img.shields.io/github/forks/thiagolemosdev/tarefasjs?label=forks&message=MIT&color=131313&labelColor=323A46" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/thiagolemosdev/calculadora?label=stars&message=MIT&color=131313&labelColor=323A46" alt="Stars">
+  <img src="https://img.shields.io/github/stars/thiagolemosdev/tarefasjs?label=stars&message=MIT&color=131313&labelColor=323A46" alt="Stars">
 </p>
 
 <h1 align="center">
@@ -21,7 +21,7 @@
 
 ## ✍ Short Description
 
-This project is just for study. The principal learn about this project is how to use LocalStorage
+This project is just for study. The principal learn about this project is how to use function and localStorage
 
 ## 🧪 Technologies
 
@@ -55,7 +55,7 @@ You can view the project through the links below:
 
 ## 🚧 Projeto:
 
-In Development 🙌
+Concluded 🙌
 
 <!-- ## 🎨 Inspiração:
 Figma: https://www.figma.com/file/2A51gQJCk5V6LxcIh2en0b/HBO-Max-Redesign-Web-App-(Community) -->

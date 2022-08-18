@@ -42,6 +42,7 @@ function salvarTarefas() {
 
 function adicionaTarefasSalvas() {
   const tarefas = JSON.parse(localStorage.getItem("tarefas"));
+  if (!tarefas) return;
   tarefas.forEach((tarefa) => {
     criaTarefa(tarefa);
   });
